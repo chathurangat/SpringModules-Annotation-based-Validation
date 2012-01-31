@@ -14,7 +14,7 @@
     <repositories>
         <repository>
             <id>JBoss repository</id>
-            <url>http://repository.jboss.com/maven2/</url>
+            <url>https://repository.jboss.org/nexus/content/repositories/deprecated/</url>
         </repository>
 
         <repository>
@@ -98,16 +98,16 @@
         <plugins>
 
             <!-- Maven compiler plugin that says to use JDK 1.6 version for compiling the project -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-compiler-plugin</artifactId>-->
+                <!--<configuration>-->
+                    <!--<source>1.6</source>-->
+                    <!--<target>1.6</target>-->
 
-                </configuration>
+                <!--</configuration>-->
 
-            </plugin>
+            <!--</plugin>-->
 
 
             <!-- Maven WAR  plugin -->
